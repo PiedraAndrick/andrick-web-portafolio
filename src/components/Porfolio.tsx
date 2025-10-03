@@ -2,7 +2,50 @@
 
 import MotionTransition from "@/components/MotionTransition";
 import ProjectCard from "./ProjectCard";
-import { porfolio } from "../../dataIndex";
+import { PortfolioItem } from "../../dataIndex";
+
+const porfolio: PortfolioItem[] = [
+    {
+        id: 1,
+        images: [
+            { src: "/ProjectoChatbot/img1.png", alt: "Pantalla inicio" },
+            { src: "/ProjectoChatbot/img2.png", alt: "Dashboard" },
+            { src: "/ProjectoChatbot/img3.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img4.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img5.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img6.png", alt: "Detalle" },
+        ],
+        title: "Chatbot Vocacional",
+        description: "Desarrollo de chatbot Vocacional",
+        altText: "Proyecto ejemplo",
+        githubLink: "https://github.com",
+        techIcons: [
+            { src: "/Technologies/FastApi.png", alt: "FastAPI" },
+            { src: "/Technologies/Angular.png", alt: "Angular" },
+            { src: "/Technologies/Spacy.png", alt: "spaCy" },
+        ],
+    },
+    {
+        id: 2,
+        images: [
+            { src: "/ProjectoChatbot/img1.png", alt: "Pantalla inicio" },
+            { src: "/ProjectoChatbot/img2.png", alt: "Dashboard" },
+            { src: "/ProjectoChatbot/img3.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img4.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img5.png", alt: "Detalle" },
+            { src: "/ProjectoChatbot/img6.png", alt: "Detalle" },
+        ],
+        title: "Proyecto 2",
+        description: "Descripción breve del proyecto 2",
+        altText: "Proyecto ejemplo",
+        githubLink: "https://github.com",
+        techIcons: [
+            { src: "/window.svg", alt: "React" },
+            { src: "/vercel.svg", alt: "Next.js" },
+            { src: "/globe.svg", alt: "Node.js" },
+        ],
+    },
+];
 
 export default function Porfolio() {
   return (
