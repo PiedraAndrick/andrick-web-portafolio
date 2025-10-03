@@ -20,9 +20,9 @@ const porfolio: PortfolioItem[] = [
         altText: "Proyecto ejemplo",
         githubLink: "https://github.com",
         techIcons: [
-            { src: "/Technologies/FastApi.png", alt: "FastAPI" },
+            { src: "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png", alt: "FastAPI" },
             { src: "/Technologies/Angular.png", alt: "Angular" },
-            { src: "/Technologies/Spacy.png", alt: "spaCy" },
+            { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/SpaCy_logo.svg/1200px-SpaCy_logo.svg.png", alt: "spaCy" },
         ],
     },
     {

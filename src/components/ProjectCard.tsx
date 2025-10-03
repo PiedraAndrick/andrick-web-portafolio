@@ -90,9 +90,9 @@ export default function ProjectCard({
             )}
           </div>
         </button>
-        <div className="mt-3 flex justify-center py-2 gap-2 flex-wrap px-3">
+        <div className="flex flex-row justify-around w-auto h-auto mt-3 py-2 gap-2 px-3">
           {techIcons.map(({ src, alt }, i) => (
-            <img key={i} src={src} alt={alt} title={alt} className="w-15 h-15 object-contain mx-3" />
+            <img key={i} src={src} alt={alt} title={alt} className="w-12 h-12 object-contain" />
           ))}
         </div>
 
